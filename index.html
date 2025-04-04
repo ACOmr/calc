@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>aco_mr</title>
+</head>
+<body>
+    <div class="calc-wrapper">
+		<div class="wrapper-headr">
+            <h4 class="wrapper-headr_h4">calc</h4>
+            <div class="button-flex">
+                <p class="button-flex_p">THEME</p>
+                
+                <div class="toggle-wrapper">
+                    <div class="numbers">
+                        <span class="numbers-w">1</span>
+                        <span class="numbers-t">2</span>
+                        <span class="numbers-s">3</span>
+                    </div>
+                    <div class="toggle-container" onclick="moveToggle()">
+                        <div class="ball" id="toggleBall"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-input">
+            <thead>
+				<tr>
+					<th>
+						<input disabled type="text"  class="wrapper-input__th">
+					</th>
+				</tr>
+			</thead>
+        </div>
+
+        <div class="calculator">
+            
+            <div class="buttons">
+                <button class="number-btn" id="number7">7</button>
+                <button class="number-btn" id="number8">8</button>
+                <button class="number-btn" id="number9">9</button>
+                <button class="cle c" id="sign">DEL</button>
+                <button class="number-btn" id="number4">4</button>
+                <button class="number-btn" id="number5">5</button>
+                <button class="number-btn" id="number6">6</button>
+                <button class="number-btn" id="numberPlus">+</button>
+                <button class="number-btn" id="number1">1</button>
+                <button class="number-btn" id="number2">2</button>
+                <button class="number-btn" id="number3">3</button>
+                <button class="number-btn" id="numberMinus">–</button>
+                <button class="dot" id="numberNuqta">.</button>
+                <button class="number-btn " id="number0">0</button>
+                <button class="number-btn" id="numberBolish">÷</button>
+                <button class="number-btn" id="numberKopaytirish">×</button>
+                <button class="remo r" id="sign">RESET</button>
+                <button class="equal " id="sign">=</button>
+            </div>
+        </div>
+        
+	</div>
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
